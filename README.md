@@ -56,7 +56,7 @@ Notifications are designed to be generated to a target SMTP relay server (using 
 Below is a sample notification. Since this is from a _production environment_, I've blacked out a few identifying pieces of information.
 Most important in the redacted pieces is the thick black line over the table: that is the email address (i.e. _inbox_) that has added the particular rules in the table underneath it.
 
-![Sample Notification from the Monitoring Script](https://raw.githubusercontent.com/NotsoanoNimus/outlook-rule-monitor/master/docs/Notifications_Sample.png)
+![Sample Notification from the Monitoring Script](https://raw.githubusercontent.com/NotsoanoNimus/outlook-rule-monitor/master/docs/Notifications_Sample.PNG)
 
 
 ## TODOs
