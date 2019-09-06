@@ -50,6 +50,17 @@ Each tweak will include its own description (if its variable name isn't descript
 + **$DesiredProperties** -- When a rule matches, which properties/fields are selected by the script to enter into the HTML table.
 
 
+## Notifications
+Notifications are designed to be generated to a target SMTP relay server (using the Tweaks section), and require HTML formatting.
+
+Below is a sample notification. Since this is from a _production environment_, I've blacked out a few identifying pieces of information.
+Most important in the redacted pieces is the thick black line over the table: that is the email address (i.e. _inbox_) that has added the particular rules in the table underneath it.
+
+![Sample Notification from the Monitoring Script](https://raw.githubusercontent.com/NotsoanoNimus/outlook-rule-monitor/master/docs/Notification_Sample.png)
+
+
 ## TODOs
 - [X] Hash rule condition-descriptions to detect when an already-discovered rule is _modified_.
 - [ ] Make the scanning of client-side rules _optional_, so administrators can exclude these results if desired.
+- [ ] Create an option for plaintext-only email notifications.
+- [ ] Add more detailed filtering mechanisms (perhaps regex-based) to exclude results from a notification.
